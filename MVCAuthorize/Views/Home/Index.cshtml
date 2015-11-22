@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<span>@string.Format("Hoşgeldiniz {0}", HttpContext.Current.User.Identity.Name)</span><br />
+
+<a href="/Home/Exit">ÇIKIŞ YAP</a>
